@@ -20,6 +20,12 @@ O projeto foi desenvolvido utilizando metodologias ágeis com SCRUM, promovendo 
 
 ---
 
+# SLIDES
+
+[![VER NO CANVA](https://img.shields.io/badge/VER%20NO-CANVA-A9170B?style=for-the-badge&logo=canva&logoColor=white)](https://canva.link/s76cgg3r2b9ptoy)
+
+---
+
 # ÍNDICE
 
 <div align="center">
