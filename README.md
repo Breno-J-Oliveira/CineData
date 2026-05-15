@@ -1,311 +1,146 @@
-# CineData — Sistema Web de Coleta e Análise de Dados Cinematográficos
+# 🎬 Projeto CineData — Plataforma Interativa de Catalogação e Análise Cinematográfica
 
-![STATUS](https://img.shields.io/badge/status-em%20desenvolvimento-red)
-![VERSÃO](https://img.shields.io/badge/versão-1.0-blue)
-![NODE](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![EXPRESS](https://img.shields.io/badge/Express.js-black?logo=express&logoColor=white)
-![SQLITE](https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white)
-![SCRUM](https://img.shields.io/badge/SCRUM-Agile-blueviolet)
-![FIGMA](https://img.shields.io/badge/Figma-design-red)
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-CONCLUÍDO-008000?style=for-the-badge" alt="Status do Projeto">
+  <img src="https://img.shields.io/badge/VERSÃO-2.0-0A66C2?style=for-the-badge" alt="Versão">
+</p>
 
----
-
-## SOBRE O PROJETO
-
-O **CineData** é um sistema web desenvolvido para coleta, organização, análise e apresentação de dados relacionados ao universo cinematográfico.
-
-A plataforma automatiza a captura de informações sobre filmes através de técnicas de **Web Scraping**, armazenando os dados em banco relacional SQLite e disponibilizando dashboards visuais e relatórios em PDF para análise de conteúdo audiovisual.
-
-O projeto foi desenvolvido utilizando metodologias ágeis com SCRUM, promovendo organização, colaboração e entregas incrementais ao longo das sprints.
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/BASH-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="BASH">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+</p>
 
 ---
 
-# SLIDES
+## 📸 Interface do Sistema
 
-[![VER NO CANVA](https://img.shields.io/badge/VER%20NO-CANVA-A9170B?style=for-the-badge&logo=canva&logoColor=white)](https://canva.link/s76cgg3r2b9ptoy)
-
----
-
-# ÍNDICE
-
-<div align="center">
-
-[![METODOLOGIA ÁGIL](https://img.shields.io/badge/METODOLOGIA%20ÁGIL-A9170B?style=for-the-badge)](#metodologia-ágil) 
-[![SOBRE NÓS](https://img.shields.io/badge/SOBRE%20NÓS-A9170B?style=for-the-badge)](#sobre-nós)
-[![MISSÃO](https://img.shields.io/badge/MISSÃO-A9170B?style=for-the-badge)](#missão) 
-[![PÚBLICO ALVO](https://img.shields.io/badge/PÚBLICO%20ALVO-A9170B?style=for-the-badge)](#público-alvo) 
-[![FIGMA](https://img.shields.io/badge/FIGMA-A9170B?style=for-the-badge)](#figma) 
-[![PALETA DE CORES](https://img.shields.io/badge/PALETA%20DE%20CORES-A9170B?style=for-the-badge)](#paleta-de-cores) 
-[![TIPOGRAFIA](https://img.shields.io/badge/TIPOGRAFIA-A9170B?style=for-the-badge)](#tipografia) 
-[![SPRINT 1](https://img.shields.io/badge/SPRINT%201-A9170B?style=for-the-badge)](#sprint-1) 
-[![PLANEJAMENTO](https://img.shields.io/badge/PLANEJAMENTO-A9170B?style=for-the-badge)](#planejamento) 
-[![5W2H](https://img.shields.io/badge/5W2H-A9170B?style=for-the-badge)](#5w2h) 
-[![PRODUCT BACKLOG](https://img.shields.io/badge/PRODUCT%20BACKLOG-A9170B?style=for-the-badge)](#product-backlog) 
-[![SPRINT BACKLOG](https://img.shields.io/badge/SPRINT%20BACKLOG-A9170B?style=for-the-badge)](#sprint-backlog) 
-[![CRONOGRAMA](https://img.shields.io/badge/CRONOGRAMA-A9170B?style=for-the-badge)](#cronograma)
-</div>
-
+<p align="center">
+  <img width="48%" alt="Captura 1" src="./captura/captura1.png" />
+  <img width="48%" alt="Captura 2" src="./captura/captura2.png" />
+</p>
 
 ---
 
-# METODOLOGIA ÁGIL
+## 🏗️ Estrutura e Arquitetura do Sistema
 
-A metodologia ágil foi utilizada para organizar o desenvolvimento do sistema CineData, promovendo colaboração, flexibilidade e entregas contínuas.
+Abaixo apresentamos o diagrama estrutural que detalha o fluxo de dados desde a interface (DOM) até a persistência no banco de dados SQLite.
 
-O projeto foi estruturado utilizando SCRUM, com:
-
-- Product Backlog
-- Sprint Planning
-- Sprint Backlog
-- Daily Scrum
-- Kanban
-- Retrospectivas
-
-A abordagem permitiu maior controle das atividades e divisão eficiente das tarefas da equipe.
+<p align="center">
+  <img src="./captura/diagrama_estrutura.png" alt="Diagrama de Estrutura do Sistema" width="90%" style="border: 2px solid #333; border-radius: 10px;">
+</p>
 
 ---
 
-# SOBRE NÓS
-
-A CineData é uma plataforma tecnológica voltada para o setor audiovisual, especializada na coleta e análise de dados cinematográficos.
-
-O sistema foi desenvolvido para automatizar processos de pesquisa relacionados a filmes, reunindo informações como:
-
-- títulos
-- sinopses
-- imagens
-- críticas
-- links
-- palavras-chave
-
-Tudo isso organizado em dashboards interativos e relatórios exportáveis.
+## 📖 Sobre o Projeto (Situação-Problema)
+O **CineData** foi desenvolvido como solução para o desafio acadêmico de criar um sistema web capaz de coletar, processar e apresentar dados temáticos. O tema escolhido foi **Artes e Filmes**. O projeto simula uma rede social onde o conteúdo é gerado automaticamente via **Web Scraping** de fontes externas ou cadastro manual.
 
 ---
 
-# MISSÃO
+## 🛠️ Tecnologias e Requisitos Técnicos
 
-Desenvolver soluções tecnológicas para organização e análise de informações sobre cinema, conectando tecnologia, pesquisa audiovisual e experiência do usuário.
+Para cumprir as normas exigidas, o sistema utiliza:
 
----
-
-# PÚBLICO-ALVO
-
-O projeto foi desenvolvido pensando em:
-
-- Pesquisadores
-- Estudantes
-- Curadores
-- Profissionais do audiovisual
-- Entusiastas de cinema
+- **Backend:** Node.js com Express.js.
+- **Frontend:** HTML5, CSS3 (Design Moderno) e JavaScript Nativo (Manipulação de DOM).
+- **Web Scraping:** `Axios` para requisições e `Cheerio` para extração de dados HTML.
+- **Validação:** Uso de `Regex` para validar URLs de fontes e dados de formulários.
+- **Banco de Dados:** SQLite3 com relacionamentos complexos.
+- **Relatórios:** Geração automática de `PDF` com estatísticas de coleta.
+- **Automação:** Scripts `BASH` para setup e execução do terminal.
 
 ---
 
-# FIGMA
+## 🗄️ Modelo do Banco de Dados (Relacional)
 
-A prototipação do sistema foi desenvolvida utilizando o Figma, permitindo a construção da identidade visual e planejamento das interfaces antes da implementação.
+O banco de dados `cine_data.sqlite` foi estruturado com 3 tabelas principais e relacionamentos via chaves estrangeiras:
 
-<div align="center">
+### Tabelas Principais:
+1.  **`temas`**: Identificação do escopo (ID, Nome, Descrição).
+2.  **`sites`**: Fontes de pesquisa cadastradas (ID, Nome, URL, ID_Tema).
+3.  **`coletas`**: Dados extraídos (ID, ID_Site, Título, Sinopse, Quantidade de Links/Imagens, Data).
 
-<img width="400" height="400" alt="Captura de tela 2026-05-14 132236" src="https://github.com/user-attachments/assets/b8271c69-4649-44ca-82cf-8dfd7455d472" />
-">
-</div>
-
----
-
-# PALETA DE CORES
-
-A identidade visual da CineData utiliza tons escuros e vermelhos para representar tecnologia, modernidade e dinamismo.
-
-| Cor | Código HEX |
-|------|------|
-| Preto | #000000 |
-| Cinza Escuro | #141414 |
-| Vermelho | #A9170B |
-| Vermelho Claro | #FF4E33 |
-| Bege Claro | #FFFCE8 |
-| Verde | #52D65F |
+### Consulta SQL (INNER JOIN Obrigatório):
+```sql
+SELECT 
+    temas.nome_tema, 
+    sites.nome_site, 
+    coletas.titulo_pagina, 
+    coletas.data_coleta
+FROM coletas
+INNER JOIN sites ON coletas.id_site = sites.id_site
+INNER JOIN temas ON sites.id_tema = temas.id_tema;
+```
 
 ---
 
-# TIPOGRAFIA
+## 🕷️ Processo de Coleta (Web Scraping)
+O robô de coleta segue o fluxo lógico:
 
-A tipografia utilizada foi:
-
-## Roboto Condensed
-
-Estrutura tipográfica:
-
-| Elemento | Tamanho |
-|------|------|
-| H1 | 40px |
-| H2 | 34px |
-| H3 | 28px |
-| H4 | 24px |
-| H5 | 18px |
-| Texto | 16px |
+1.  **Validação:** O usuário submete uma URL válida (validada rigorosamente por **Regex**).
+2.  **Requisição:** O servidor utiliza a biblioteca **Axios** para realizar o download do código-fonte HTML da página alvo.
+3.  **Parsing:** O **Cheerio** isola e extrai as tags de interesse (títulos, capas e sinopses).
+4.  **Persistência:** Os dados tratados são salvos no banco **SQLite** e renderizados no **Dashboard** em tempo real via manipulação do DOM.
 
 ---
 
-# SPRINT 1
+## 📊 Gestão do Projeto (Metodologia SCRUM)
+O desenvolvimento foi organizado em **2 Sprints intensivas** com papéis bem definidos:
 
-A Sprint 1 foi responsável pela definição inicial do projeto, incluindo:
+* **Product Owner:** Rafaela Oliveira
+* **Scrum Master:** Paolla Veronez
+* **Dev Team:** Breno, Felipe, Isabella, Vitor.
 
-- levantamento de requisitos
-- definição do escopo
-- modelagem inicial do banco
-- organização do backlog
-- planejamento técnico
-
-Também foram iniciadas:
-
-- estruturação do sistema
-- definição das tecnologias
-- organização das tarefas no Kanban
+### 🛠️ Ferramentas de Gestão:
+* **Kanban:** Monitoramento visual do fluxo de trabalho (*To Do, Doing, Done*).
+* **5W2H:** Framework utilizado para o planejamento estratégico e definição de requisitos.
+* **Sprint Retrospective:** Reunião final para análise de bugs críticos (como dependências circulares) e lições aprendidas.
 
 ---
 
-# PLANEJAMENTO
+## 🚀 Como Executar
+Siga os comandos abaixo no seu terminal **BASH**:
 
-Durante o planejamento foram definidas:
+```bash
+# 1. Instale as dependências do projeto
+npm install
 
-- responsabilidades da equipe
-- cronograma
-- prioridades do sistema
-- arquitetura inicial
-- fluxo de desenvolvimento
+# 2. Inicie o servidor Express
+npm start 
+# ou
+node server.js
 
-A equipe dividiu funções entre:
-
-- prototipação
-- documentação
-- desenvolvimento
-- gestão do projeto
-
----
-
-# 5W2H
-
-A ferramenta 5W2H foi utilizada para organização das ações do projeto.
-
-<div align="center">
-
-<img width="400" height="400" alt="Captura de tela 2026-05-14 140950" src="https://github.com/user-attachments/assets/da85ac4d-fda1-435e-9a75-7b130c28fca1" />
-
-</div>
+# 3. Acesse a interface no navegador
+# URL: http://localhost:3000
+```
 
 ---
 
-# PRODUCT BACKLOG
-
-O Product Backlog reuniu todas as funcionalidades previstas para o sistema.
-
-Entre elas:
-
-- cadastro de sites
-- scraping de filmes
-- dashboard
-- relatórios em PDF
-- consultas SQL
-- gerenciamento de temas
-
-<div align="center">
-<img width="400" height="400" alt="Captura de tela 2026-05-14 135844" src="https://github.com/user-attachments/assets/87bde8ab-18f2-4b8f-98ae-a66d10aa5ac9" />
-
-</div>
-
----
-
-# SPRINT BACKLOG
-
-O Sprint Backlog organizou as tarefas da Sprint 1 com prioridades e responsáveis definidos.
-
-<div align="center">
-<img width="400" height="400" alt="Captura de tela 2026-05-14 141110" src="https://github.com/user-attachments/assets/4cbed90c-6a33-48fc-8f6c-d57f9f53be7a" />
-
-</div>
-
----
-
-# CRONOGRAMA
-
-O cronograma do projeto foi desenvolvido utilizando ClickUp para acompanhamento das tarefas e prazos da equipe.
-
-<div align="center">
-<img width="400" height="400" alt="Captura de tela 2026-05-14 112333" src="https://github.com/user-attachments/assets/45dedcef-8ca0-441b-b25f-007e75e07362" />
-
-</div>
-
----
-
-# TECNOLOGIAS UTILIZADAS
-
-![HTML](https://img.shields.io/badge/HTML5-orange)
-![CSS](https://img.shields.io/badge/CSS3-blue)
-![JAVASCRIPT](https://img.shields.io/badge/JavaScript-yellow)
-![NODE](https://img.shields.io/badge/Node.js-339933)
-![EXPRESS](https://img.shields.io/badge/Express.js-black)
-![SQLITE](https://img.shields.io/badge/SQLite-07405E)
-![AXIOS](https://img.shields.io/badge/Axios-purple)
-![CHEERIO](https://img.shields.io/badge/Cheerio-green)
-
----
-
-# FUNCIONALIDADES
-
-- Cadastro de fontes de pesquisa
-- Web Scraping automatizado
-- Coleta de títulos e sinopses
-- Armazenamento em SQLite
-- Dashboard interativo
-- Relatórios em PDF
-- Consultas relacionais com INNER JOIN
-
----
-
-# EQUIPE
+## 👥 Equipe
 
 | Nome | Função |
 |------|------|
-| Breno Oliveira | Desenvolvedor |
-| Felipe Heitor | Desenvolvedor |
-| Isabella Dias | Desenvolvedora |
-| Paolla Veronez | Scrum Master |
-| Rafaela Oliveira | Product Owner |
-| Vitor Canali | Desenvolvedor |
+| **Breno Oliveira** | Desenvolvedor |
+| **Felipe Heitor** | Desenvolvedor |
+| **Isabella Dias** | Desenvolvedora |
+| **Paolla Veronez** | Scrum Master |
+| **Rafaela Oliveira** | Product Owner |
+| **Vitor Canali** | Desenvolvedor |
+
+> **Orientadores:** Prof. Raul Lopes & Prof. Paulo Camargo
 
 ---
 
-# ORIENTADORES
+## 🏁 Conclusão
 
-- Prof. Raul Lopes  
-- Prof. Paulo Camargo  
+O **CineData** transcende um exercício simples, unificando conceitos de extração de dados reais (Web Scraping) com persistência relacional (SQLite) e arquitetura de rede social. 
 
----
-
-# CONCLUSÃO
-
-O projeto CineData demonstrou a aplicação prática de tecnologias modernas para coleta e análise de dados cinematográficos.
-
-Além do desenvolvimento técnico, o projeto reforçou conceitos relacionados a:
-
-- metodologias ágeis
-- organização de equipes
-- modelagem de dados
-- desenvolvimento web
-- web scraping
-- dashboards interativos
-
-A plataforma possui potencial para futuras expansões, incluindo:
-
-- autenticação de usuários
-- inteligência artificial
-- análise semântica
-- deploy em cloud
+[cite_start]A conclusão deste projeto atesta o conhecimento de ponta a ponta da equipe no ecosssistema Node.js, uso do Express, formatação de relatórios automáticos, e governança e gerenciamento ágil de tarefas[cite: 184, 186, 205].
 
 ---
-
-# LICENÇA
-
-<div align="center">
-Projeto desenvolvido para fins educacionais no curso Técnico em Desenvolvimento de Sistemas — SENAI “A. Jacob Lafer”.
-</div>
+<p align="center">
+  <i>Projeto desenvolvido para fins educacionais no curso Técnico em Desenvolvimento de Sistemas — SENAI “A. Jacob Lafer”.</i>
+</p>
